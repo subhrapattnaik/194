@@ -1,0 +1,56 @@
+Now the first command we want to explore is to find the ip address of our computer.
+To find the IP of any computer type ipconfig in the command prompt for the window.
+If you are using mac os or linux type ifconfig.
+
+
+After typing the command press enter.You will see lots of details here.
+
+If you scroll a little bit down you will see information like wireless Lan adapter Wi-fi.
+This gives us information about your connection.
+
+
+First is the IPv4 address, which is your ip address in mycase it is 192.68.1.102 The ip address is assigned by your
+router/dongle.If you connect to a different wifi your ip address will also change.
+
+The next thing we are interested in is the default Gateway.This is the ip address of your wifi router/ dongle.
+Which in my case is 192.168.1.1.
+
+Default gateway is the first step in connecting your computer with the internet.
+We will see the practical use of the default gateway when we will build a simulation.
+
+----------------
+
+As we discussed in the last class, the internet is a collection of billions of computers connected with each
+other.So our website, let's say www.amazon.com is also stored on a computer.
+
+But how do we find the website?
+
+Like your computer has an ip address, websites are also assigned an IP address. With help of this IP address we
+can reach that website and access the data.But how can we find the IP address of a website.
+To do that we can use a command.This command is called Nslookup to use this command type it in the cmd and after
+that add the name of the website such as 
+\
+nslookup www.amazon.com
+
+\
+-------------------------
+
+We got the IP but to check that we can connect with this or not?
+
+we are going to use the ping command to 
+
+ping amazon.com or ping 104.115.93.185
+
+---------------------------
+We can clear the cmd by using the cls command.
+
+To run the ping command type ping 104.115.93.185 and press enter.
+This will send the 4 data packets to amazon.com and then receive the 4 packets. This will also give us information
+about the latency of the network. It shows how much time it took to receive each packet in milliseconds.
+Lower this number faster is the connection
+--------------------------------
+
+Great, we learnt about how to find the IP address of the website and ping to check whether we can connect with
+the website or not.
+
+
