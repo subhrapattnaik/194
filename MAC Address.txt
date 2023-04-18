@@ -1,0 +1,41 @@
+That is where the mac address comes into the picture. It is
+also called a physical address. Because it is assigned by
+the manufactures of the device.and it cannot be changed.
+All the devices which can connect to a network need a
+mac address.
+Mac stands for Media Access Control.
+
+To see the mac address of our computer we can simple
+type a command in the command prompt as ipconfig /all
+(Ifconfig /all for mac os).
+
+Here you will see a lot of information. The mac address is
+called a physical address.
+
+But you can that we have multiple mac addresses here.
+This is because each networking device in the computer
+has a mac address.
+
+The computer has an ethernet device, which helps us to
+connect with networking using a LAN cable.
+
+Then we have a wifi module and bluetooth module as well.
+So all of these devices are assigned a mac address.
+
+
+
+-----------------------------------------------
+Wireless Lan adapter wi-fi
+
+
+This is the mac address of the wifi module of my computer.
+The Mac address is a 12 digit hexadecimal number
+
+The first 6 digits of the mac address tells us about the
+manufacturers. So these will be the same for all the
+devices made by that manufacturer.
+Rest of the 6 digits are unique for each device.
+2 devices can not have the same mac address.
+--------------------------------------------------------
+
+
